@@ -1,0 +1,44 @@
+## Home:
+
+Held with the 16th Seminar on Ontology Research IN BRAZIL - ONTOBRAS 2023
+
+Trocar Main Informations por: Conference Theme: The role of Ontologies in Artificial Intelligence and Machine Learning (em formato H1)
+
+retirar: ICBO 2023 will be held with the 16th Seminar on Ontology Research in Brazil – ONTOBRAS 2023
+
+TROCAR Conference Dates, por:
+Important dates:
+Conference Dates: August 28th to September 1st (Monday-Friday) (NEGRITO) 
+Workshops/tutorials: August 28-30, 2023 (until noon of day 30)
+Main conference: August 30 (afternoon) - September 01, 2023
+Journal Track submission deadline: March 31st.
+Workshops and Tutorials submission deadline: April 3 April 10, 2023. Notification May 3, 2023
+Software demo submission deadline: June 15, 2023. Notification: June 29, 2023
+ICBO Conference Papers and Abstracts deadline: May 31, 2023. Notification June 29, 2023
+Workshops and tutorials take place on site in conjunction with ONTOBRAS 2023
+
+Keynote (em lista ul)
++ Renata Guizzardi - University of Twente (Netherlands)
+
+Tirar Venue
+
+Substituir Conference Videos por Past Conference Videos
+- incluir o link
+
+## Schedule
+Colocar em formato de lista (as 3 primeiras)
+Retirar os ultimos 3 e colocar no lugar (https://icbo-conference.github.io/icbo2023/workshops-and-tutorials/)
+
+## Travel
+Tirar o Accommodations e colocar o RS Turismo no lugar (com destaque)
+Accommodations fica antes do Travel to Brasilia com os dizeres "We are working to define partner hotels for our conference. We will announce the options shortly. In the meantime, you can check some options here(https://www.decolar.com/accommodations/results/CIT_926/2023-08-27/2023-09-02/1?from=SB2&facet=city&searchId=98a0f73b-6983-421c-9d74-3282ea878860&accommodation_type=hotel&sorting=stars_descending&currency=USD)."
+
+Colocar o Entry Visas to Brazil Para logo depois do RS Turismo
+
+Diminuir o Airlines h3 ou h4 para sub de Airport
+
+Organizar o menu da seguinte forma:
+# Travel (RS Turismo + Entry Visas)
+    ## Travel to Brasilia (Accommodations + Airport)
+    ## Local Atractions 
+
