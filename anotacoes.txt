@@ -83,34 +83,35 @@ In 2023 we will have the 16th Edition of ONTOBRAS and the WTDO is in its 7th edi
 $ Apos o menu contato, colocar o "Previous" do (https://icbo-conference.github.io/) 
 
 Menu CALL
-- The focus of our 2023 conference is colocar negrito: "The role of Ontologies in Artificial Intelligence and Machine Learning".
-- corrigir o important dates:
-- trocar "Workshops/tutorials: August 28-30, 2023 (until noon of day 30)" por
+$ - The focus of our 2023 conference is colocar negrito: "The role of Ontologies in Artificial Intelligence and Machine Learning".
+$ - corrigir o important dates:
+$ - trocar "Workshops/tutorials: August 28-30, 2023 (until noon of day 30)" por
                             "Workshops/tutorials: August 28-29, 2023 "
-- trocar de Main conference: August 30 (afternoon) - September 01, 2023 para Main conference: August 30 - September 01, 2023
-- negrito no Main conference 
+$ - trocar de Main conference: August 30 (afternoon) - September 01, 2023 para Main conference:
+                               August 30 - September 01, 2023
+$ - negrito no Main conference 
 - 
-- No ISB acrescentar details e linkar para o ISB full de conference 
+$ - No ISB acrescentar details e linkar para o ISB full de conference 
 -
-- No program committeee, COLOCAR a lista a partir de: https://icbo-conference.github.io/icbo2023/program-committee/ 
-- incluir um h2: Workshops, Tutorials and Demos
-- E subir o menu de h3 para h2: Call for Workshops, Tutorials and Demos (no mesmo nivel do program) 
-- tirar o software demo do menu
-- inserir no menu, o demo, junto do workshp e tutorial
+$ - No program committeee, COLOCAR a lista a partir de: https://icbo-conference.github.io/icbo2023/program-committee/ 
+$ - incluir um h2: Workshops, Tutorials and Demos
+? - E subir o menu de h3 para h2: Call for Workshops, Tutorials and Demos (no mesmo nivel do program) 
+$ - tirar o software demo do menu
+$ - inserir no menu, o demo, junto do workshp e tutorial
 ? Depois de Call for Workshops, Tutorials and Demos  colocar um subtitulo: " Call for Workshops and Tutorials" (h3) com a lista ja existente 
 
-- Inserir um topico novo: Workshops and Tutorials accept com a frase: "Take a look at ICBO 2023 conference proposals accepted here(link para schedule)."
+$ - Inserir um topico novo: Workshops and Tutorials accepted com a frase: "Take a look at ICBO 2023 conference proposals accepted here(link para schedule)."
 
-- Colocar para h3 "Call for ICBO Conference Papers and Abstracts"
-- Inserir um h2 antes de "Call for ICBO Conference Papers and Abstracts" com o texto "Main Track"(linkar no menu)
+$ - Colocar para h3 "Call for ICBO Conference Papers and Abstracts"
+? - Inserir um h2 antes de "Call for ICBO Conference Papers and Abstracts" com o texto "Main Track"(linkar no menu)
 
-- Passar Poster preparation guideline para h3
+? - Passar Poster preparation guideline para h3
 
-- Trocar "ICBO 2023 theme: The role of Ontologies in Artificial Intelligence and Machine Learning" por "Topics of interest"
+? - Trocar "ICBO 2023 theme: The role of Ontologies in Artificial Intelligence and Machine Learning" por "Topics of interest"
 
-- trocar "Areas of particular interest to ICBO 2023 include, but are not limited to, the following:" por "We are particularly interested in topics related to "The role of Ontologies in Artificial Intelligence and Machine Learning", but other areas of interest for ICBO 2023 include, but are not limited to:"
+$ - trocar "Areas of particular interest to ICBO 2023 include, but are not limited to, the following:" por "We are particularly interested in topics related to "The role of Ontologies in Artificial Intelligence and Machine Learning", but other areas of interest for ICBO 2023 include, but are not limited to:"
 
-- no item "Biocuration" linkar para (ISB Travel Fellow...)
+$ - no item "Biocuration" linkar para (ISB Travel Fellow...)
 
 
 # nos links de email colocar "subject" no mailto com cada topico. Vide o exemplo do git antigo.
