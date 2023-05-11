@@ -116,3 +116,21 @@ $ - no item "Biocuration" linkar para (ISB Travel Fellow...)
 
 # nos links de email colocar "subject" no mailto com cada topico. Vide o exemplo do git antigo.
 
+
+
+https://mdbootstrap.com/docs/standard/content-styles/images/#!
+<div class="bg-image">
+  <img
+    src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.webp"
+    class="img-fluid"
+    alt="Sample"
+  />
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <p class="text-white mb-0">Can you see me?</p>
+    </div>
+  </div>
+</div>
+
+veja: https://mobirise.com/bootstrap-gallery/
+
