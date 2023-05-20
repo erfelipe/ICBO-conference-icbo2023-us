@@ -17,6 +17,20 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color:#060af858;
+        text-align: center;
+      }
+      table, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+      }  
+      p,li {text-align: justify;}       
+    </style>
 
 </head>
 
@@ -53,6 +67,7 @@
                     <li class="nav-item dropdown" id="myDropdownProgram">
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Program </a>
                         <ul class="dropdown-menu bg-light ">
+                            <li> <a class="dropdown-item" href="./program.html#general"> About </a></li>
                             <li> <a class="dropdown-item" href="./keynotes.html"> Keynote Speakers </a></li>
                             <li> <a class="dropdown-item" href="./program.html#workshops"> Accepted Workshops </a></li>
                             <li> <a class="dropdown-item" href="./program.html#tutorials"> Accepted Tutorials </a></li>
@@ -64,7 +79,7 @@
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Call for Submissions
                         </a>
                         <ul class="dropdown-menu bg-light ">
-                            <li> <a class="dropdown-item" href="./call.html#general"> General Information </a></li>
+                            <li> <a class="dropdown-item" href="./call.html#general"> About Program </a></li>
                             <li> <a class="dropdown-item" href="./call.html#program"> Program Committee </a></li>
                             <li> <a class="dropdown-item" href="./call.html#workshops"> Workshops, Tutorials and Soft</a></li>
                             <li> <a class="dropdown-item" href="./call.html#callFor"> Main Track </a></li>
@@ -80,7 +95,9 @@
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Travel</a>
                         <ul class="dropdown-menu bg-light ">
                             <li> <a class="dropdown-item" href="./travel.html#agency"> Agency </a></li>
-                            <li> <a class="dropdown-item" href="./travel.html#entryVisas"> Entry Visas </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#accommodation"> Accommodations </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#entryVisas"> Customs and Immigration </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#invitationLetter"> Letter of invitation </a></li>
                             <li> <a class="dropdown-item" href="./travel.html#travelToBrasilia"> Travel to Brasilia </a></li>
                             <li> <a class="dropdown-item" href="./travel.html#localAttractions"> Local Attractions </a></li>
                         </ul>
@@ -95,12 +112,14 @@
     <!-- Main Informations -->
     <section class="page-section" id="program">
         <div class="container">
-            <h2 id="information">
-                <img width=4% src="./assets/img/icons/info-icon.png" alt="infor">General Information</h2>
+            <h2 id="general">
+                <img width=4% src="./assets/img/icons/calendar-icon.png" alt="dates">  About Program </h2>
             <ul>
                 <li><b>Conference Dates</b>: August 28th to September 1st (Monday-Friday)</li>
-                <li><b>Workshops and tutorials</b>: August 28-29, 2023 </li>
-                <li><b>Main conference</b>: August 30th - September 1st, 2023</li>
+                <ul>
+                    <li><b>Workshops and tutorials</b>: August 28-29, 2023 </li>
+                    <li><b>Main conference</b>: August 30th - September 1st, 2023</li>
+                </ul>
             </ul>
 
             <h2 id="workshops">
@@ -137,6 +156,92 @@
                     <i>Co-organizers</i>: Senay Kafkas, Sumyyah Toonsi, Sakhaa Alsaedi
                 </li>
             </ul>
+
+            <h2 id="schedule"> Schedule </h2>
+            <p><b>NOTE:</b> This is a preliminary schedule and may change up to the date of the conference depending on the papers and posters accepted and the availability of keynote speakers and presenters.</p>
+
+            <table style="width:100%">
+                <tr>
+                  <th colspan="2" style="width:18%">Schedule</th>
+                  <th>August 28th</th>
+                  <th>August 29th</th>
+                  <th>August 30rd</th>
+                  <th>August 31st</th>
+                  <th>September 1st</th>
+                </tr>
+                <tr>
+                  <td rowspan="5" style="font-weight: bold;background-color: #060af858;">Morning</td>
+                  <td>08:00-08:15</td>
+                  <td colspan="5" style="font-style: italic;color: red;">Registration and networking</td>  
+                </tr>
+                <tr>
+                  <td>08:15-10:15</td>
+                  <td>Workshops and tutorials</td>
+                  <td>Workshops and tutorials</td>
+                  <td>Opening session and Keynote talk</td>
+                  <td>Keynote talk</td>
+                  <td>Keynote talk</td>
+                </tr> 
+                  <tr style="font-style: italic;color: red;">
+                  <td style="font-style: normal;color: black;">10:15-10:30</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                </tr> 
+                <tr>
+                  <td>10:30-12:00</td>
+                  <td>Workshops and tutorials</td>
+                  <td>Workshops and tutorials</td>
+                  <td>Journal papers presentations</td>
+                  <td>Main track papers presentations</td>
+                  <td>Main track papers presentations</td>
+                </tr>
+                  <tr>
+                  <td style="font-style: normal;">12:00-13:30</td>
+                  <td colspan="5" style="font-style: italic;color: red;">Lunch time</td>
+                </tr>
+                <tr>
+                  <td rowspan="4" style="font-weight: bold;background-color: #060af858;">Afternoon</td>
+                  <td>13:30-15:30</td>
+                  <td>Main track papers presentations</td>
+                  <td>Main track papers presentations</td>
+                  <td>Main track papers presentations</td>
+                  <td>Main track papers presentations</td>
+                  <td>Main track papers presentations</td> 
+                </tr>
+                <tr style="font-style: italic;color: red;">
+                    <td style="font-style: normal;color: black;">15:30-15:45</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                  <td style="font-style: normal;color: black;">Posters Fast-talk</td>
+                  <td>Coffee-break</td>
+                  <td>Coffee-break</td>
+                </tr> 
+                <tr>
+                  <td>15:45-17:15</td>
+                  <td>Workshops and tutorials</td>
+                  <td>Workshops and tutorials</td>
+                  <td rowspan="2">Poster session and Welcome reception</td>
+                  <td>Main track papers presentations</td>
+                  <td>Closing session and Awards</td>
+                </tr> 
+                <tr>
+                <td>17:15-18:00</td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
+                
+                </tr>
+                 <tr>
+                  <td rowspan="4" style="font-weight: bold;background-color: #060af858;">Evening</td>
+                  <td>18:30-21:30</td>
+                <td colspan="3"></td>
+                  <td style="font-weight: bold;color: red;" >Social Dinner</td>
+                  <td></td> 
+                </tr> 
+              </table>
+
             
         </div>
     </section>
