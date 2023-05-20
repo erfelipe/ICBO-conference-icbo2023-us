@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        p,li {text-align: justify;}
+    </style>
 
 </head>
 
@@ -26,7 +29,9 @@
         <div class="container-fluid">
 
             <a class="navbar-brand" href="./index.html"> 
-                <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> </a>
+                <a class="navbar-brand" href="./index.html"><b>ICBO 2023</b>
+                    <!-- <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> -->
+                </a>
 
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                 aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +84,10 @@
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Travel</a>
                         <ul class="dropdown-menu bg-light ">
                             <li> <a class="dropdown-item" href="./travel.html#agency"> Agency </a></li>
-                            <li> <a class="dropdown-item" href="./travel.html#entryVisas"> Entry Visas </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#accommodation"> Accommodations </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#entryVisas"> Customs and Immigration </a></li>
+                            <li> <a class="dropdown-item" href="./travel.html#invitationLetter"> Letter of invitation </a></li>
+
                             <li> <a class="dropdown-item" href="./travel.html#travelToBrasilia"> Travel to Brasilia </a></li>
                             <li> <a class="dropdown-item" href="./travel.html#localAttractions"> Local Attractions </a></li>
                         </ul>
@@ -94,17 +102,24 @@
     <!-- Main Informations -->
     <section class="page-section" id="travel">
         <div class="container">
+            <div style="text-align: center;">
+                <img id="about" width="20%" src="./assets/img/logos/icbo2023_logo.png" alt="ICBO">
+            </div>
+            <br><br>
             
-            <h2 id="agency">RS Turismo</h2>
-            
-            <p>RS Turismo, official agency of the event, presents some suggestions for accommodation and transfer
+            <h2 id="agency"><img width=4% src="./assets/img/icons/agency-icon.png" alt="agency"> Official Travel Agency</h2>
+            <br>
+            <div style="text-align: center;">
+                <a href="http://rsturismoeventos.com.br" target="_blank">
+                <img id="about" src="./assets/img/logos/NovalogoRSTurismo.png" alt="RS Turismo - Agency"></a>
+            </div>
+            <br>
+            <p>RS Turismo, official agency of the event, they are working to present some suggestions for accommodation and transfer
                 (AirPort > Hotel > AirPort) service.</p>
 
-            <h5>Contact:</h5>
+            <h6 id="contact">  Contact</h6>
             
             <div class="rsTurismo-container-flex">
-                <a href="http://rsturismoeventos.com.br" target="_blank"> 
-                    <img src="./assets/img/logos/NovalogoRSTurismo.png" alt="RS Turismo - Agency"> </a>
                 <ul>
                     <li>Phone: +55 (61) 3039-2929</li>
                     <li>Whatsapp – Rejane Saraiva: +55 (61) 99613-7931</li>
@@ -112,19 +127,20 @@
                 </ul>
             </div>
 
-            <h3 id="accommodation">Accommodations</h3>
+            <h4 id="accommodation"> Accommodations</h4>
 
             <p>We are working to define partner hotels for our conference. We will announce the options shortly. In the
-                meantime, you can check some options <a
+                meantime, for now, you can check some options <a
                     href="https://www.decolar.com/accommodations/results/CIT_926/2023-08-27/2023-09-02/1?from=SB2&facet=city&searchId=98a0f73b-6983-421c-9d74-3282ea878860&accommodation_type=hotel&sorting=stars_descending&currency=USD"
                     target="_blank">here</a> </p>
-
-            <h2 id="entryVisas">Entry Visas to Brazil</h2>
+                <br>
+            <h2 id="entryVisas"><img width=4% src="./assets/img/icons/visa-icon.png" alt="entryVisas">
+                Customs and Immigration</h2> <!--Entry Visas to Brazil-->
 
             <p>Brazil adopts a policy of reciprocity regarding visas. This means that nationals of countries that
                 require visas for Brazilian citizens will need a visa to travel to Brazil. According to the Brazilian
                 law, Brazil must agree, on a reciprocal basis, to offer visa waiver to nationals of another country,
-                except for the hypotheses established in the Decree 9.731 / 2019. Brazil has signed visa exemption
+                except for the hypotheses established in the Decree nº 9.731/2019. Brazil has signed visa exemption
                 agreements with about 90 countries.</p>
 
             <p>To find out if you need a visa to travel to Brazil, <a
@@ -136,38 +152,44 @@
                 Consulates and Vice consulates of Brazil abroad. Here you can visit the Ministry of Foreign Affairs visa
                 application <a href="https://formulario-mre.serpro.gov.br/sci/pages/web/ui/#/instrucoes-iniciais-visto"
                     target="_blank">here</a>.</p>
+                
+                <h4 id="invitationLetter"> Letter of invitation</h4>
 
-            <h2 id="travelToBrasilia">Travel to Brasilia</h2>
+                <p>To request a letter of invitation for ICBO 2023, not at least prior to registration, please email us at
+                     <a href="mailto:icbo2023@gmail.com?subject=Invitation letter to ICBO 2023">icbo2023{at}gmail.com</a>
+                      and include your full postal work address, full name, passaport details (number, issue date and expiration date), and attach your registration.
+                      </p><p>Following receipt of your request, please allow 4 business days for a response.</p>
+    
+                <br>
+            <h2 id="travelToBrasilia"><img width=4% src="./assets/img/icons/attractions-icon.png" alt="travelToBrasilia">  Travel to Brasilia</h2>
 
             <p>Brasilia, the federal capital city of Brazil, is located in the central-west region of Brazil on the
-                central plateau of Brazil. <a
-                    href="https://www.turismo.df.gov.br/wp-conteudo/uploads/2017/12/Guia-Roteiros-Brasilia-Ingles.pdf"
-                    target="_blank">Know Brasilia</a></p>
+                central plateau of Brazil. </p>
 
-            <h3>Airport</h3>
+            <h4 id="airport">  Airport</h4>
 
             <p>The <a href="https://www.bsb.aero/">Presidente Juscelino Kubitschek International Airport</a> (IATA: BSB)
-                is the only international airport serving Brasília.</p>
-            <p>Most flights to Brazil go to either Rio de Janeiro or São Paulo, where you can get a connection to
+                is the only international airport serving Brasília. Brasília Airport has direct flights to all Brazilian capitals and to 19 other Brazilian cities. There are 45 Brazilian destinations connecting Brazil with the capital of the Republic.
+Brasília Airport also has direct flights to/from six direct international destinations: Buenos Aires in Argentina, Cancun in Mexico, Miami and Orlando in the United States, Lisbon in Portugal, and Panama City in Panama.
+           <br>Most flights to Brazil go to either Rio de Janeiro or São Paulo, where you can get a connection to
                 Brasilia.</p>
-
-            <h4>Airlines</h4>
-
-            <p><a href="https://www.latamairlines.com/us/en" target="_blank">LATAM</a>, <a
+            <ul><li><b>Airlines:</b> <a href="https://www.latamairlines.com/us/en" target="_blank">LATAM</a>, <a
                     href="https://www.voeazul.com.br/mobile/en/home" target="_blank">AZUL</a> and <a
                     href="https://www.voegol.com.br/en-us" target="_blank">GOL</a> are Brazilian carrier serving many
                 countries. But you also could fly from other such American Airlines, Delta and United, Air Canada, TAP
-                Air Portugal, Aerolíneas Argentinas, Copa Airlines and others.</p>
+                Air Portugal, Aerolíneas Argentinas, Copa Airlines and others.</li></ul>
 
-            <h2 id="localAttractions">Local Attractions</h2>
+            <h4 id="localAttractions">Local Attractions</h4>
 
-            <p>Brasília is a world national heritage buildings registered in the Unesco's World Heritage Site. The
+            <p>Brasilia was the first modern and youngest city to be declared a World Heritage Site by UNESCO in 1987. The
                 city's initial project was conceived by urban planner Lúcio Costa and the main buildings were designed
                 by architect Oscar Niemeyer. Thus, there are many monuments and other attractions to be visited in the
-                capital. Take a look in both option below to see our tourist attractions:</p>
-            <p><a href="https://www.df.gov.br/sightseeing-tour-in-brasilia/" target="_blank">Tourism in Brasilia</a></p>
-            <p><a href="https://www.turismo.df.gov.br/wp-conteudo/uploads/2017/12/Guia-Roteiros-Brasilia-Ingles.pdf"
-                    target="_blank">Tourist Guide</a></p>
+                capital. 
+                <br><br>Take a look in the official <a
+                href="https://www.turismo.df.gov.br/wp-conteudo/uploads/2017/12/Guia-Roteiros-Brasilia-Ingles.pdf"
+                target="_blank">City Tour Guide</a> of Brasilia and in our tourism <a href="https://www.df.gov.br/sightseeing-tour-in-brasilia/" target="_blank">sightseeing</a> recommendations from the official website of the Government of the Federal District.</p>
+            
+
         </div>
     </section>
 
