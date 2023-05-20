@@ -17,6 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        p,li {text-align: justify;}
+    </style>
 </head>
 
 <body id="page-top">
@@ -24,8 +27,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="./index.html"> 
-                <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> </a>
+            <a class="navbar-brand" href="./index.html"><b>ICBO 2023</b>
+                <!-- <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> -->
+            </a>
 
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                 aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +52,15 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link" href="./keynotes.html"> Key notes </a></li>
+                    <li class="nav-item dropdown" id="myDropdownProgram">
+                        <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Program </a>
+                        <ul class="dropdown-menu bg-light ">
+                            <li> <a class="dropdown-item" href="./keynotes.html"> Keynote Speakers </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#workshops"> Accepted Workshops </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#tutorials"> Accepted Tutorials </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#schedule"> Schedule </a></li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item dropdown" id="myDropdownCall">
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Call for Submissions
@@ -63,7 +75,7 @@
                     </li>
 
                     <li class="nav-item"><a class="nav-link" href="./registration.html"> Registration </a></li>
-                    <li class="nav-item"><a class="nav-link" href="./schedule.html"> Schedule </a></li>
+
                     <li class="nav-item"><a class="nav-link" href="./sponsors.html"> Sponsors </a></li>
 
                     <li class="nav-item dropdown" id="myDropdownTravel">
@@ -85,39 +97,39 @@
     <!-- Main Informations -->
     <section class="page-section" id="conference">
         <div class="container">
+            <div style="text-align: center;">
+                <img width="20%" src="./assets/img/logos/icbo2023_logo.png" alt="ICBO">
+            <h2 id="about">International Conference on Biomedical Ontology (ICBO)</h2>
+            </div>
 
-            <h2 id="about">About</h2>
-
-            <h4>International Conference on Biomedical Ontology (ICBO)</h4>
-
-            <p>The International Conference on Biomedical Ontology (ICBO) is a premier annual conference series that
+            <p style="text-align: justify;">The International Conference on Biomedical Ontology (ICBO) is a premier annual conference series that
                 brings together researchers, students and professionals involved in the development and application of
                 ontologies in all areas of biology, medicine, diseases, human health, genome biology, environment,
                 biomes, nutrition, food, plants, agriculture and others. Together, they address issues pertaining to
                 coordinated development of ontological resources, data standards, as well as the optimal use of
                 ontologies in applications.</p>
+            <br>
+            <h3 id="icbo2023">2023 Theme: <i> "The role of Ontologies in Artificial Intelligence and Machine Learning".</i></h3><br>
 
-            <h2 id="icbo2023">ICBO 2023</h2>
-
-            <h3>Conference Theme: </h3>
-
-            <h4> "The role of Ontologies in Artificial Intelligence and Machine Learning".</h4>
-
-            <h3>Conference Date:</h3>
+            <h3 id="dates">
+                <img width=2.5% src="./assets/img/icons/calendar-icon.png" alt="dates">
+                Conference Date:</h3> 
+            <br>
             <ul>
                 <li>August 28th to September 1st (Monday-Friday)</li>
                 <li>Workshops and tutorials: August 28-29, 2023</li>
                 <li>Main conference: August 30 - September 01, 2023</li>
             </ul>
 
-            <p>ICBO 2023 will be held with the 16th Seminar on Ontology Research in Brazil – <a
+            <p><h5>ICBO 2023 will be held with the 16th Seminar on Ontology Research in Brazil  <a
                     href="https://www.inf.ufrgs.br/ontobras/en/15th-seminar-on-ontology-research-in-brazil-ontobras-2022-2/"
-                    target="_blank">ONTOBRAS 2023</a></p>
+                    target="_blank"><img width=20% src="./assets/img/logos/ontobras_preto.png" alt="ontobras"></a></h5></p>
 
-            <h2 id="local">Local</h2>
+                    <h2 id="local"><img width=3% src="./assets/img/icons/local-icon.png" alt="location">Local</h2>
 
-            <h4>University of Brasilia</h4>
-
+            <div style="text-align: center;"><br>
+                        <h4>University of Brasilia</h4>
+            </div>
             <p>The University of Brasilia (UnB) offers free public education of excellence for Brazilian and foreign
                 students, with a humanistic, embracive and plural perspective of citizens' rights. <b>Our goals and our
                     mission are to be a reference in teaching, research and community projects, contributing to global
@@ -185,7 +197,7 @@
                 </div>
             </div>
 
-            <h4>Faculty of Information Science - UnB</h4>
+            <div style="text-align: center;"><br><h4>Faculty of Information Science - UnB</h4></div>
 
             <p>
                 FCI is responsible for a Graduate Program in Information Science (PPGCinf), which
@@ -198,7 +210,7 @@
 
             <p><a href="http://www.fci.unb.br/fci360" target="_blank">Know the FCI</a></p>
 
-            <h4>Brasilia</h4>
+            <div style="text-align: center;"><br><h4>Brasilia</h4></div>
 
             <ul>
                 <li>Brasilia, the federal capital city of Brazil, located in the central-west region of Brazil on the
@@ -363,14 +375,14 @@
                     humanitarian disasters.</li>
                 <li>When submitting papers or posters, authors should inform if they want to apply for an ISB Travel
                     fellowship.</li>
-                Travel Fellowship Application Invitations will be sent directly to eligible individuals after accepting
-                submissions of Papers or Posters.
-                Applicant must be listed as an author and be the presenter of an accepted Oral or Poster presentation
+                <li>Travel Fellowship Application Invitations will be sent directly to eligible individuals after accepting
+                submissions of Papers or Posters.</li>
+                <li>Applicant must be listed as an author and be the presenter of an accepted Oral or Poster presentation
                 (excluding accepted Late Posters) in order to be eligible to apply for travel fellowship funds through
-                ICBO 2023.
-                All applicants must attend all five (5) conference days.
-                The deadline to submit a fellowship application is 5 days after the author's accepted notification is
-                sent.
+                ICBO 2023.</li>
+                <li>All applicants must attend all five (5) conference days.</li>
+                <li>The deadline to submit a fellowship application is 5 days after the author's accepted notification is
+                sent.</li>
             </ul>
 
             <h4>Application Process</h4>
@@ -416,14 +428,13 @@
                 <li>TBD</li>
             </ul>
 
-            <h2 id="ontobras">Ontobras</h2>
 
             <div class="image-container-flex">
                 <a href="https://www.inf.ufrgs.br/ontobras/en/15th-seminar-on-ontology-research-in-brazil-ontobras-2022-2/"
-                    target="_blank"><img src="./assets/img/logos/ontobras.png" alt="Ontobras"></a>
+                    target="_blank"><img src="./assets/img/logos/ontobras_preto.png" alt="Ontobras"></a>
             </div>
-
-            <p>The Seminar on Ontology Research in Brazil (<a
+            <br>
+            <p style="text-align: justify;">The Seminar on Ontology Research in Brazil (<a
                     href="https://www.inf.ufrgs.br/ontobras/en/15th-seminar-on-ontology-research-in-brazil-ontobras-2022-2/"
                     target="_blank">ONTOBRAS</a>) is a scientific venue for researchers and
                 practitioners from computer and information science to discuss theories, methodologies, languages, tools
@@ -434,7 +445,7 @@
                 the Tutorials Track. students, practitioners, and lecturers will have the opportunity to learn
                 techniques and tools used by the community.</p>
 
-            <p> ONTOBRAS is recognized by the Brazilian ontology community as a unique and highly qualified forum for
+            <p style="text-align: justify;"> ONTOBRAS is recognized by the Brazilian ontology community as a unique and highly qualified forum for
                 the presentation and discussion of ontologies and application cases in Brazil.
                 In 2023 we will have the 16th Edition of ONTOBRAS and the WTDO is in its 7th edition, and has been
                 consolidating itself as a rich space for discussion between researchers of different generations,
@@ -444,7 +455,7 @@
                 of ontology researchers in Brazil. This year, with the tutorials track, participants will also have the
                 opportunity to learn state-of-the-art ontology techniques and tools. </p>
 
-            <p>Therefore, we list in a non-exhaustive way areas and research communities from which we expect to receive
+            <p style="text-align: justify;">Therefore, we list in a non-exhaustive way areas and research communities from which we expect to receive
                 submissions:</p>
             <ul>
                 <li>Conceptual modeling: conceptual methods and tools for the formal representation of concepts in
@@ -460,20 +471,20 @@
                 <li>Linguistics and natural language processing: concept extraction, meaning determination.</li>
             </ul>
 
-            <p>Researchers and practitioners are invited to submit theoretical, technical, and practical research
+            <p style="text-align: justify;">Researchers and practitioners are invited to submit theoretical, technical, and practical research
                 contributions that directly or indirectly deal with the areas listed above. We welcome papers ranging
                 from philosophical and theoretical foundations to new technologies and innovative applications.</p>
 
-            <p>The 16th Ontology Research Seminar in Brazil (ONTOBRAS 2023) and the 7th Doctoral and Masters Consortium
+            <p style="text-align: justify;">The 16th Ontology Research Seminar in Brazil (ONTOBRAS 2023) and the 7th Doctoral and Masters Consortium
                 on Ontologies (WTDO 2023) will be held in person on August 28, 29, 30, 31 and September 1st, 2023.</p>
 
-            <h3 id="contact">Contact Information</h3>
+            <h3 id="contact"><img width=3% src="./assets/img/icons/email-icon.png" alt="email">Contact Information</h3>
 
             <p> Please direct all further questions to <a
                     href="mailto:icbo2023@gmail.com?subject=ICBO">icbo2023{at}gmail.com</a>
             </p>
 
-            <h2>Previous ICBO Conferences</h2>
+            <h3>Previous ICBO Conferences</h3>
             <ul>
                 <li>2022: Ann Arbor, MI, USA <a
                         href="https://icbo-conference.github.io/icbo2022/">icbo-conference.github.io/icbo2022</a></li>
