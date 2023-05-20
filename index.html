@@ -24,8 +24,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="./index.html"> 
-                <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> </a>
+            <a class="navbar-brand" href="./index.html"><b>ICBO 2023</b>
+                <!-- <img src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"> -->
+            </a>
 
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
                 aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +49,15 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item"><a class="nav-link" href="./keynotes.html"> Key notes </a></li>
+                    <li class="nav-item dropdown" id="myDropdownProgram">
+                        <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Program </a>
+                        <ul class="dropdown-menu bg-light ">
+                            <li> <a class="dropdown-item" href="./keynotes.html"> Keynote Speakers </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#workshops"> Accepted Workshops </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#tutorials"> Accepted Tutorials </a></li>
+                            <li> <a class="dropdown-item" href="./program.html#schedule"> Schedule </a></li>
+                        </ul>
+                    </li>
 
                     <li class="nav-item dropdown" id="myDropdownCall">
                         <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Call for Submissions
@@ -63,7 +72,7 @@
                     </li>
 
                     <li class="nav-item"><a class="nav-link" href="./registration.html"> Registration </a></li>
-                    <li class="nav-item"><a class="nav-link" href="./schedule.html"> Schedule </a></li>
+
                     <li class="nav-item"><a class="nav-link" href="./sponsors.html"> Sponsors </a></li>
 
                     <li class="nav-item dropdown" id="myDropdownTravel">
@@ -75,6 +84,10 @@
                             <li> <a class="dropdown-item" href="./travel.html#localAttractions"> Local Attractions </a></li>
                         </ul>
                     </li>
+                    <!--
+                    <li class="nav-item"><a class="nav-link" href="#">
+                         <img width="20%" src="./assets/img/icons/pt-BR.png" alt="pt-BR"> 
+                    </a></li>-->
                 </ul>
             </div>
             <!-- navbar-collapse.// -->
@@ -85,53 +98,77 @@
     <!-- Masthead-->
     <header class="masthead">
         <div class="container container-text-masthead">
-            <div class="masthead-subheading ">ICBO 2023</div>
-            <div class="masthead-heading text-uppercase ">14th International Conference on Biomedical Ontology</div>
-            <div class="masthead-subheading ">Held with the 16th Seminar on Ontology Research in Brazil - ONTOBRAS 
+            <!-- <div class="masthead-subheading ">ICBO 2023</div>-->
+            <!-- <div class="masthead-heading text-uppercase ">-->
+            <div class="masthead-heading">
+                <div class="row">
+                    <div class="col-3"><img width="300" height="300"src="./assets/img/logos/icbo2023_logo.png" alt="ICBO"></div>
+                    <div class="col-9 text-uppercase">14th International Conference on Biomedical Ontology</div>
+                    <br>
+                </div>
+                <div class="masthead-subheading"><br>Held with the 16th Seminar on Ontology Research in Brazil<br><br>
+                        <img width="200" src="./assets/img/logos/ontobras.png" alt="ONTOBRAS">
             </div>
         </div>
     </header>
     <!-- Main Informations -->
     <section class="page-section" id="mainInformations">
         <div class="container">
-            <h2>Conference Theme</h2>
-            <h4>Theme of ICBO 2023: <span> <b>"The role of Ontologies in Artificial Intelligence and Machine
-                        Learning"</b>.</span></h4>
-
-            <h3>Important Dates</h3>
+            <h2 id="theme"><img width=2.5% src="./assets/img/icons/subject-icon.png" alt="theme">
+            Theme of ICBO 2023</h2>
+            <div style="text-align: center;">
+            <br><h4><span > <b><i>"The role of Ontologies in Artificial Intelligence and MachineLearning"</i></b>.</span></h4>
+            </div><br>
+            <h3 id="dates">
+                <img width=2.5% src="./assets/img/icons/calendar-icon.png" alt="dates">
+                Important Dates</h3>
             <ul>
                 <li><b>Conference Dates</b>: August 28th to September 1st (Monday-Friday)</li> 
-                <li><b>Workshops/tutorials</b>: August 28-30, 2023 (until noon of day 30)</li>
-                <li><b>Main conference</b>: August 30 (afternoon) - September 01, 2023</li>
+                <li><b>Workshops/tutorials</b>: August 28-29, 2023</li>
+                <li><b>Main conference</b>: August 30 - September 01, 2023</li>
                 <li>Journal Track submission deadline: March 31st.</li>
                 <li>Workshops and Tutorials submission deadline: <span style='color:red;text-decoration:line-through'>April 3</span> April 10, 2023. Notification May 3, 2023</li>
                 <li>Software demo submission deadline: June 15, 2023. Notification: June 29, 2023</li>
-                <li>ICBO Conference Papers and Abstracts deadline: May 31, 2023. Notification June 29, 2023</li>
+                <li><b>Main track Papers and Abstracts deadline:</b> May 31, 2023. Notification June 29, 2023 (Tentative)</li>
             </ul>
 
-            <p>Workshops and tutorials take place on site in conjunction with ONTOBRAS 2023</p>
-
-            <h3>Keynote Speakers</h3>
+            <div style="text-align: center;">
+                <h6><i>Workshops and tutorials take place on site in conjunction with ONTOBRAS 2023</i></h6><br>
+            </div>
+            <h3 id="keynotes"><img width=3% src="./assets/img/icons/keynote-icon.png" alt="keynotes">
+                Keynote Speakers</h3>
             <ul>
                 <li><a href="./keynotes.html">Barry Smith</a> - University at Buffalo</li>
                 <li><a href="./keynotes.html">Maurício Barcellos</a> - Federal University of Minas Gerais</li>
                 <li><a href="./keynotes.html">Renata Guizzardi</a> - University of Twente (Netherlands)</li>
             </ul>
-
-            <h3>Location</h3>
+            <br>
+            <h3 id="location"><img width=3% src="./assets/img/icons/location-icon.png" alt="location">
+                Location</h3>
 
             <p>The 14th International Conference of Biomedical Ontology (ICBO 2023) will be held at the Campus Darcy
-                Ribeiro of University of Brasilia, Brasilia, DF, Brazil.</p>
+                Ribeiro of <a
+                href="https://international.unb.br"
+                target="_blank">University of Brasilia</a>, Brasilia, DF, Brazil.</p>
 
-            <p>Campus Darcy Ribeiro
-                Asa Norte - Brasília-DF</p>
-            <h3>Conference Videos</h3>
+            <p><a href="https://www.google.com.br/maps/place/Universidade+de+Bras%C3%ADlia+-+Campus+Darcy+Ribeiro/@-15.7658436,-47.8721751,15z/data=!4m6!3m5!1s0x935a3bba813cf97b:0xed2c4932e4690218!8m2!3d-15.7658436!4d-47.8721751!16s%2Fg%2F11c0q0q13j?hl=pt-BR" target="_blank">
+                Campus Darcy Ribeiro</a>, Asa Norte - Brasília-DF</p>
+            <br>
+            <h3 id="pastVideos"><img width=3% src="./assets/img/icons/video-icon.png" alt="video">
+                Conference Videos</h3>
 
             <p>A past conference videos playlist recordings is available on <a
-                    href="https://www.youtube.com/channel/UCUT0MwXxAFnekhsSJVmHTJw/playlists"
-                    target="_blank">YouTube</a>.</p>
+                    href="https://www.youtube.com/channel/UCUT0MwXxAFnekhsSJVmHTJw/playlists" target="_blank">YouTube</a>.</p>
 
-            <img src="./assets/img/logos/fci_unb_logo.png" alt="FCI">
+            <br>
+            <h3 id="contact"><img width=3% src="./assets/img/icons/email-icon.png" alt="email">Contact Information</h3>
+                <p> Please direct all further questions to <a
+                            href="mailto:icbo2023@gmail.com?subject=Information ICBO">icbo2023{at}gmail.com</a>
+                </p>
+
+            <div style="text-align: center;">
+                    <img src="./assets/img/logos/fci_unb_logo.png" alt="FCI"/>
+            </div>
 
         </div>
     </section>
