@@ -1,0 +1,18 @@
+Eduardo, 
+1) Você pode criar uma página nova isbAward.html por exemplo.
+
+O que eu pensei, é tirar o conteúdo da ISB de dentro desta página de conference.html 
+            quando alguém clicar no submenu abre a página isbAward.html
+
+2) Você pode criar uma página nova ontobras.html por exemplo
+            O que eu pensei, é tirar o conteúdo do ONTOBRAS de dentro desta página de conference.html 
+            quando alguém clicar no menu abre a página ontobras.html
+
+3) Na página Home, em pensei em fazer o menu ficar sobre a foto, igual ao site do FOIS (https://fois2023.griis.ca/)
+
+4) Na página Home, Colocar o filtro escuro sobre toda a imagem se conseguir colocar o menu igual a página do FOIS, sem a barra petra.
+
+5) Incluir no HOME o ícone da bandeira do Brasil para apontar para o site em português.
+
+6) Ver se dá para incluir o LOGO do ICBO no início de todas as páginas, como esta na página conference.html#about
+
