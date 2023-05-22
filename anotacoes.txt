@@ -118,19 +118,11 @@ $ - no item "Biocuration" linkar para (ISB Travel Fellow...)
 
 
 
-https://mdbootstrap.com/docs/standard/content-styles/images/#!
-<div class="bg-image">
-  <img
-    src="https://mdbcdn.b-cdn.net/img/new/standard/city/053.webp"
-    class="img-fluid"
-    alt="Sample"
-  />
-  <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-    <div class="d-flex justify-content-center align-items-center h-100">
-      <p class="text-white mb-0">Can you see me?</p>
-    </div>
-  </div>
-</div>
 
-veja: https://mobirise.com/bootstrap-gallery/
+
+# A página program.html eu fiz uma tabela bem básica, fica a vontade para mudar, inclusive o css dela ficou nela mesmo, deve ter de levar p o arquivo geral.
+
+# comentado nas linhas 363 do arquivo conference.html
+
+# comentado nas linhas 458 do arquivo conference.html
 

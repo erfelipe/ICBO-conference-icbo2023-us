@@ -129,6 +129,15 @@ body {
   padding: 2rem;
 }
 
+#logoHome {
+  height: 18rem;
+  width: 18rem;
+}
+
+#logoOntobras {
+  width:14rem;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -2262,24 +2271,77 @@ progress {
   -webkit-overflow-scrolling: touch;
 }
 
+/* tablets */
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  #logoHome {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  #logoOntobras {
+    width: 11rem;
+  }
+
+  #mainTextHome{
+    font-size: 2.6rem;
+  }
+
+  #subTextHome{
+    font-size: 1.2rem;
+  }
+}
+
+/* celulares */
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-}
 
+  #logoHome {
+    height: 16rem;
+    width: 16rem;
+  }
+
+  #logoOntobras {
+    width: 8rem;
+  }
+
+  #mainTextHome{
+    font-size: 1.6rem;
+  }
+
+  #subTextHome{
+    font-size: 1.2rem;
+  }
+
+}
+/* celulares */
 @media (max-width: 767.98px) {
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-}
 
-@media (max-width: 991.98px) {
-  .table-responsive-lg {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+  #logoHome {
+    height: 6.5rem;
+    width: 6.5rem;
+  }
+
+  #logoOntobras {
+    width: 8.5rem;
+  }
+
+  #mainTextHome{
+    font-size: 1.6rem;
+  }
+
+  #subTextHome{
+    font-size: 1.2rem;
   }
 }
 
@@ -3794,6 +3856,8 @@ fieldset:disabled .btn {
     right: 0;
     left: auto;
   }
+
+
 }
 
 @media (min-width: 768px) {
