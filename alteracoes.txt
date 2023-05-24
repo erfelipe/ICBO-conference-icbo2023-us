@@ -1,10 +1,9 @@
 Eduardo, 
-1) Você pode criar uma página nova isbAward.html por exemplo.
-
-O que eu pensei, é tirar o conteúdo da ISB de dentro desta página de conference.html 
+# 1) Você pode criar uma página nova isbAward.html por exemplo.
+    O que eu pensei, é tirar o conteúdo da ISB de dentro desta página de conference.html 
             quando alguém clicar no submenu abre a página isbAward.html
 
-2) Você pode criar uma página nova ontobras.html por exemplo
+# 2) Você pode criar uma página nova ontobras.html por exemplo
             O que eu pensei, é tirar o conteúdo do ONTOBRAS de dentro desta página de conference.html 
             quando alguém clicar no menu abre a página ontobras.html
 
