@@ -15,3 +15,11 @@ Eduardo,
 
 6) Ver se dá para incluir o LOGO do ICBO no início de todas as páginas, como esta na página conference.html#about
 
+Andrey:
+- Suggest pro site. Sub-menu “Workshop, Tutorial and Soft” mudar “Soft” pra “Demo”
+
+2 less costly platforms than Eventbrite: https://whova.com/ and https://www.wildapricot.com/
+
+$ - Tirar dos modelos do CEUR, os arquivos de 2 colunas
+
+$ - 
